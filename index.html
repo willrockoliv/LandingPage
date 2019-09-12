@@ -1,0 +1,107 @@
+<!doctype html>
+<!-- William Rocha RA 082160033 
+     Allan Sueder  RA 082160030 -->
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>Menu</title>
+        
+        <style>
+            html {background-color: #F6F6F6}
+            
+            main
+            {
+                width: 955px;
+                margin: auto;
+                border: 1px solid #ddd;
+                background-color: #FFF;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            header { width:955px; height:95px }
+            
+            article { float: left; margin: 30px 20px; width: 600px }
+            article header h1 { margin: 0 }
+            
+            article p img { margin-left: 40px }
+            
+            h1, h2, h4 
+            { 
+                font-family: Georgia, "Times New Roman", Times, serif;
+                color: #C63;
+                font-style: italic;
+                letter-spacing: -0.05em;
+            }
+            h1 { font-size:2.6em; margin:0 5px; }
+            h4 { font-size:1.6em; margin:0 5px; }
+            
+            p, li 
+            { 
+                font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+                font-size:0.9em; 
+                color:#555; 
+                line-height:1.8
+            }
+            
+            #apoio { float:right; width:300px; margin-top:30px }
+            
+            #conversion-form { background-color: #B4531A; padding: 10px;}
+            
+            footer { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
+        </style> 
+	</head>
+
+    <body>
+        <main>
+            <header>
+                <img src="imagens/topo_principal.jpg">
+            </header>
+
+            <article>
+                <header>
+                    <h1>Cursos Culinária Francesa</h1>
+                </header>
+                
+                <p><img src="imagens/cousine.jpg" width="475" height="300" alt=""/></p>
+                <p>O Curso de Culinária Francesa, da categoria Culinária, Gastronomia e Confeitaria, apresenta várias técnicas gastronômicas e elaborar pratos requintados, saborosos e muito elegantes como por exemplo o crêpe suzette, magrets de pato, carrê de porco com batatas, picanha com ratatouille, bife bourguignon dentre outros.</p>
+                
+                <h4>O que você vai aprender</h4>
+                <ul>
+                    <li>Aula 1. Salada de contra filé, laranja e endívias</li>
+                    <li>Aula 2. Creme Vichyssoise</li>
+                    <li>Aula 3. Aspargos a vinagrete</li>
+                    <li>Aula 4. Sopa de cebola caramelizada</li>
+                </ul>
+                
+                <h4>Nossos alunos</h4>
+                <p><img src="imagens/cheff.jpg" width="475" height="300" alt=""/></p>
+            </article>
+
+            <div id="apoio">
+                <section class="fotos_apoio">
+                    <h1>Inscreva-se</h1>
+                    <form id="conversion-form" class="conversion-form">
+                        <input type="text" placeholder="Nome*" name="name" value="" required=""><br>
+                        <input type="email" placeholder="E-mail*" name="email" value="" required=""><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </section>
+                
+                <section class="fotos_apoio">
+                    <h2>Mapa</h2>
+                    <img src="imagens/mapa_como_chegar.gif" width="275" height="299" />
+                </section>
+
+                <section class="fotos_apoio">
+                    <h2>Fotos</h2>
+                    <img src="imagens/fotos.jpg" width="275" height="205" />
+                </section>
+            </div>
+
+            <footer>
+                <p>Cafe Fontenebleu - Estradas dos Alvarengas, 4000 - SBC</p>
+            </footer>
+        </main>
+		
+    </body>
+</html>
